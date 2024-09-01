@@ -7,3 +7,5 @@ begin
  writeln(' HH HH');
  writeln(' ZZZZZ');
  end.
+
+{07.11.2019}
