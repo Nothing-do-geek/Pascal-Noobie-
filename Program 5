@@ -1,0 +1,6 @@
+program B;
+begin
+ writeln('Вася');
+ writeln('    пошёл');
+ writeln('         гулять');
+ end.
