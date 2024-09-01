@@ -1,0 +1,24 @@
+program exam;
+
+var N,x,p,q,s,e,oldN,nx,np : integer;
+
+begin
+  readln(s); read(oldN);
+  nx:= 0; np:= 0; x:= 0; p:= 0;
+  for s:= 2 to n do
+  begin
+    read(e);
+    if e > oldN then
+    begin
+      e:= e+x-oldN; p:= 0;
+      if nx < x then nx:= x;
+    end;
+    if e < oldN then
+    begin
+      p:= p+oldN-x; x:= 0;
+      if np < p then np:= p;
+    end;
+    oldN:= x;
+  end;
+  writeln(nx, ' ', np);
+end.
