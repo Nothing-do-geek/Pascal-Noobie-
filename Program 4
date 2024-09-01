@@ -1,0 +1,9 @@
+program friend; 
+begin 
+ writeln('Hello!');
+ writeln('Hello! What is your name?');
+ writeln('My name is Arisha');
+ writeln('Nice to meet you,Arisha! Welcome to the Pascal program!');
+ writeln('Thank you!');
+ writeln('Your welcome and have a nice day!');
+end.
