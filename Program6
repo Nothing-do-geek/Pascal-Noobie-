@@ -12,3 +12,5 @@ begin
   write(a);
   write(b);
 end.
+
+{07.11.2019}
