@@ -1,0 +1,11 @@
+program ui;
+ begin
+ var a, b, c: integer;
+ a :=8;
+ write(a);
+ b :=12;
+ write(b);
+ c := 9;
+ write(c);
+ end.
+ 
