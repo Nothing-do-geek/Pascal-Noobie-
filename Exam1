@@ -1,0 +1,18 @@
+program exam;
+var N, Y, X: longint;
+d: integer;
+begin
+readln(N);
+X:=0;
+Y:=1;
+while N>1 do begin
+d := N mod 10;
+if d<>1 then begin
+X := X + d*Y;
+Y := Y+1
+end;
+N := N div 10;
+end;
+writeln(Y)
+end.
+  
