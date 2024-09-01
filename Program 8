@@ -1,0 +1,8 @@
+program z;
+var a, b,c ,d: integer;
+ begin
+   write('Write 3 numbers: ');
+   read(a, b, c);
+   d:= a+b+c;
+   write(a, '+', b,'+', c, '=', d);
+   end.
