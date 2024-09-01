@@ -1,0 +1,9 @@
+program meme;
+begin
+  writeln ('   Ж');
+  writeln ('  ЖЖЖ');
+  writeln (' ЖЖЖЖЖ');
+  writeln ('ЖЖЖЖЖЖЖ');
+  writeln (' HH HH');
+  writeln (' ZZZZZ');
+end.
