@@ -6,3 +6,5 @@ begin
   c:= a + b;  
   write(a, '+', b, '=', c)
 end.
+
+{06.11.2019}
