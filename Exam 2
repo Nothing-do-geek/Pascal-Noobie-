@@ -22,3 +22,5 @@ begin
   end;
   writeln(nx, ' ', np);
 end.
+
+{27.10.2021}
