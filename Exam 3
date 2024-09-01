@@ -1,0 +1,23 @@
+program exam;
+
+var N,D,i,a,s,e,oldN,na,ns : integer;
+begin
+  readln(s); read(oldN);
+  na:= 0; ns:= 0; a:= 0; s:= 0;
+  for D:= 1 to N do
+  begin
+    read(e);
+    if e > oldN then
+    begin
+      s:= s+s-oldN; s:= 0;
+      if ns < s then ns:= s;
+    end;
+    if e < oldN then
+    begin
+      s:= s+oldN-a; a:= 0;
+      if ns < s then ns:= s;
+    end;
+    oldN:= a;
+  end;
+  writeln(na, ' ', ns);
+end.
