@@ -1,0 +1,11 @@
+program exam;
+
+var n,k,sum,d,i,j : integer;
+
+begin
+
+writeln('Введите значения n и k через пробел');
+
+readln(n,k);
+
+sum:=0;
