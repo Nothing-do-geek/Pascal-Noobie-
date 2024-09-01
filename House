@@ -7,3 +7,5 @@ begin
   writeln (' HH HH');
   writeln (' ZZZZZ');
 end.
+
+{16.12.2020}
