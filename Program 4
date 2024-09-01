@@ -7,3 +7,5 @@ begin
  writeln('Thank you!');
  writeln('Your welcome and have a nice day!');
 end.
+
+{06.11.2019}
