@@ -1,0 +1,14 @@
+program math;
+begin
+  var a, b: integer;
+  a := 4;
+  b := 7;
+  a := a + 1;
+  b := b + 1;
+  a := a + b;
+  b := b + a;
+  a := a + 2;
+  b := b + 2;
+  write(a);
+  write(b);
+end.
